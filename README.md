@@ -1,11 +1,13 @@
 # GTM Engineering Internship Assignment  
 ### Submitted by Gauri
 
+---
+
 ## Overview
 
-Built a lightweight GTM workflow for CAMX exhibitors focused on lead generation and personalized outreach.
+Built a lightweight GTM workflow for CAMX exhibitors focused on lead generation, personalized outreach, and a simple dashboard for lead review.
 
-The goal was to collect company data, enrich it with useful business details, and generate relevant first lines for cold emails.
+The goal was to collect company data, enrich it with useful business details, generate relevant first lines for cold emails, and present the final output in an easy-to-use format.
 
 ---
 
@@ -14,14 +16,16 @@ The goal was to collect company data, enrich it with useful business details, an
 1. Tested exhibitor data scraping using Python  
 2. Structured a clean company dataset  
 3. Added enrichment fields:
-   - Website
-   - LinkedIn discovery link
-   - Industry
-   - Outreach status
+   - Website  
+   - LinkedIn discovery link  
+   - Industry  
+   - Outreach status  
 
-4. Generated personalized first lines based on company-specific signals such as materials, composites, and manufacturing relevance.
+4. Generated personalized first lines using company-specific business signals such as materials, composites, and manufacturing relevance.
 
-5. Exported final outreach-ready sheet.
+5. Exported the final outreach-ready sheet.
+
+6. Built a lightweight Streamlit dashboard for reviewing leads and outputs.
 
 ---
 
@@ -30,17 +34,21 @@ The goal was to collect company data, enrich it with useful business details, an
 - `scraper.py` – initial scraping workflow  
 - `enrich.py` – data enrichment  
 - `firstline.py` – personalized line generation  
-- `final_output.csv` – final output dataset
+- `app.py` – Streamlit dashboard  
+- `final_output.csv` – final output dataset  
 
 ---
 
 ## Deliverables
 
 ### Google Sheet  
-https://docs.google.com/spreadsheets/d/1HRlhmWB-ESkJpkKfbDcJQsihmtlYVHcvSgOmC7ZOiv4/edit?usp=sharing
+[Open Google Sheet](https://docs.google.com/spreadsheets/d/1HRlhmWB-ESkJpkKfbDcJQsihmtlYVHcvSgOmC7ZOiv4/edit?usp=sharing)
 
 ### Loom Video  
-PASTE_LINK_HERE
+[Watch Loom Walkthrough](https://drive.google.com/file/d/1mEBaVNznJaWyHNSb71zKUayWtHvGjyPH/view?usp=sharing)
+
+### Streamlit Dashboard  
+
 
 ---
 
@@ -48,12 +56,13 @@ PASTE_LINK_HERE
 
 I approached this as a practical GTM problem, not only a coding task.
 
-Priority was to build a usable workflow that balances:
+The priority was to build a usable workflow that balances:
 
 - execution speed  
-- clean data  
+- clean structured data  
 - personalization quality  
-- clear output
+- simple usability  
+- clear final output
 
 ---
 
@@ -62,10 +71,18 @@ Priority was to build a usable workflow that balances:
 - Dynamic browser scraping  
 - Google Sheets API sync  
 - Deeper company enrichment  
-- Multiple AI outreach variants
+- Multiple outreach variants  
+- CRM integration  
+- Advanced dashboard analytics  
 
 ---
 
 ## Tech Used
 
-Python, Pandas, Requests, Google Sheets
+Python, Pandas, Requests, Streamlit, Google Sheets
+
+---
+
+## Final Note
+
+This project was built to demonstrate practical problem solving at the intersection of automation, data, and go-to-market execution.
